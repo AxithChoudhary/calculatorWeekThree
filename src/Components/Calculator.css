@@ -1,0 +1,55 @@
+body{
+    color: white;
+    background-color: #00bfff;
+    
+
+}
+
+.calculator{
+    margin: 5% 40%;
+    border-radius: 12px;
+    width: 15%;
+    padding: 2em;
+    background-color: black;
+}
+
+.operator{
+    margin-top: 1em;
+    /* padding: 1em; */
+    display: grid;
+}
+.delAcBtn{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.operatorArthBtn{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+
+}
+
+
+.arthButton{
+    
+    width: 100%;
+    padding: 1em;
+    border-radius: 12px;
+}
+.numbers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.number{
+    width: 100%;
+    padding: 1em;
+    border-radius: 12px;
+}
+.display{
+    align-items: flex-start;
+    background-color: #353839;
+    padding: 1em;
+    border-radius: 20px;
+    /* margin: 1em; */
+}
